@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/cardview_shadow_start_color"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TabLayout
+                android:background="@color/design_default_color_primary_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tabs"
+
+                ></android.support.design.widget.TabLayout>
+        </android.support.design.widget.AppBarLayout>
+    </RelativeLayout>
+    <!--Container-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:id="@+id/viewcontainer"
+
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
